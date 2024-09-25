@@ -11,7 +11,7 @@ builder.Configuration
     .AddUserSecrets<Program>();
 
 
-// Acceder a los secretos
+// Use secrets
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 var dbPassword = builder.Configuration["DBPassword"];
 Console.WriteLine($"ConnectionString: {connectionString}");
