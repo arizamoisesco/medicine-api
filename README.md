@@ -31,7 +31,7 @@ Antes de empezar asegúrate de tener instalados los siguientes requisitos:
 Clona este repositorio
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/arizamoisesco/medicine-api
 ```
 
 Restaura los paquetes NuGet:
